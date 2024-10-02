@@ -1,0 +1,20 @@
+meta {
+  name: account topup
+  type: http
+  seq: 3
+}
+
+post {
+  url: 127.0.0.1:8089/api/v1/accounts/top-up
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "accountNumber": "CXT10197428",
+    "pin": "5477",
+    "amount": 100.09
+  }
+  
+}

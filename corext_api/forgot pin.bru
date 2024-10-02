@@ -1,0 +1,18 @@
+meta {
+  name: forgot pin
+  type: http
+  seq: 4
+}
+
+post {
+  url: 127.0.0.1:8089/api/v1/agents/forget-pin
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "phone": "233504168545"
+  }
+  
+}
