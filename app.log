@@ -1460,3 +1460,6 @@ Consider defining a bean of type 'com.machines.corext.service.AgentService' in y
 2024-10-02T16:08:28.652Z  INFO 20128 --- [corext] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8089 (http) with context path '/'
 2024-10-02T16:08:28.658Z  INFO 20128 --- [corext] [restartedMain] com.machines.corext.CorextApplication    : Started CorextApplication in 1.417 seconds (process running for 11464.965)
 2024-10-02T16:08:28.660Z  INFO 20128 --- [corext] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-02T16:11:25.746Z  INFO 20128 --- [corext] [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat-9].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T16:11:25.747Z  INFO 20128 --- [corext] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T16:11:25.749Z  INFO 20128 --- [corext] [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
